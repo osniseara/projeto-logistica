@@ -28,9 +28,7 @@ public class Teste {
 	
 	
 	
-//	for(Veiculos veiculo : veiculos) {
-//		veiculo.exibirDados();
-//	}
+
 	
 	for(Onibus onibus: autoOnibus) {
 		onibus.exibirDados();
