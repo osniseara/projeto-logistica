@@ -12,8 +12,8 @@ public class Teste {
 		
 
 	
-	ArrayList<Onibus> bus = new ArrayList<Onibus>();
-	bus.add(new Onibus("Mercedes","CKS-1238","Branco", 2010, 22));
+	ArrayList<Onibus> autoOnibus = new ArrayList<Onibus>();
+	autoOnibus.add(new Onibus("Mercedes","CKS-1238","Branco", 2010, 22));
 	
 	ArrayList<Caminhaos> autoCaminhao = new ArrayList<Caminhaos>();
 	autoCaminhao.add(new Caminhaos("Scania","LTS-123","Azul", 2015,1));
@@ -32,7 +32,7 @@ public class Teste {
 //		veiculo.exibirDados();
 //	}
 	
-	for(Onibus onibus: bus) {
+	for(Onibus onibus: autoOnibus) {
 		onibus.exibirDados();
 	}
 	
